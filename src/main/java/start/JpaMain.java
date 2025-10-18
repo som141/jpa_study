@@ -27,7 +27,7 @@ public class JpaMain {
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
-            System.out.println("cutcutcut");
+            System.out.println("cut cut cut");
         } finally {
             em.close();
         }
